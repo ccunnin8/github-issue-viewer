@@ -94,28 +94,32 @@ export default function Results() {
         <div className="mx-auto w-11/12">
             <h1 className="text-center text-2xl">Github Issues</h1>
             { error && <p>{error}</p>}
-            <div>
+            <Link className="p-2 bg-green-200 border" to="/">Search again</Link>
+            <div className="mt-8">
                 <header className="text-center uppercase font-bold w-5/6 flex flex-row">
                     <p className="w-1/5">Number</p>
                     <p className="w-1/5">State</p>
                     <p className="w-2/5">Title</p>
                     <p className="w-1/5">Username</p>
                 </header>
+                {/** Display Issues from current index to current index + results per page */}
                 <ul className="list-none">
                     { data.slice(currentPage * results_per_page, (currentPage * results_per_page) + results_per_page).map(issue => <Issue key={`issue_${issue.id}`} {...issue} />)}
                 </ul>
             </div>
             <div>
+                { /** Create page links  */}
                 <ul className="flex flex-row">
                     { [...Array(numberOfPages(data.length, results_per_page)).keys()].map(i => {
                      return <li key={"link_to_" + i} 
                                 className="underline ml-2 text-blue-500">
-                                <Link to={`/${i}${searchString()}`}>{i + 1}
+                                <Link to={`/results/${i}${searchString()}`}>{i + 1}
                                 </Link>
                             </li>
                 })}
                 </ul>
             </div>
+            { /** Forward/Backward Buttons */}
             <div className="buttons my-4">
                 { 
                     currentPage > 0 && 

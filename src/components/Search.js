@@ -12,7 +12,7 @@ export default function Search () {
     const history = useHistory();
     const handleSubmit = (e) => {
         e.preventDefault();
-        history.push(`/0?org=${org}&repo=${repo}`);
+        history.push(`/results/0?org=${org}&repo=${repo}`);
     }
 
     return (
@@ -40,7 +40,7 @@ export default function Search () {
                     className="bg-blue-400 p-2 border my-2 w-40"
                      value="search" />
             </form>
-            <a className="text-center bg-green-600 p-3 border w-40" href="/0?org=walmartlabs&repo=thorax">Thorax Repo</a>
+            <a className="text-center bg-green-600 p-3 border w-40" href="/results/0?org=walmartlabs&repo=thorax">Thorax Repo</a>
         </div>
     )
 }

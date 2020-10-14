@@ -10,7 +10,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Search} />
         <Route exact path ="/results" component={Results} />
-        <Route exact path="/:id" component={Results} />
+        <Route exact path="/results/:id" component={Results} />
         <Route exact path="/issue/:id" component={Issue} />
       </Switch>
     </Router>
