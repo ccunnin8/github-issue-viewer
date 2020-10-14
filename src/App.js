@@ -8,10 +8,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Search} />
-        <Route exact path ="/results" component={Results} />
-        <Route exact path="/results/:id" component={Results} />
-        <Route exact path="/issue/:id" component={Issue} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={Search} />
+        <Route exact path ={process.env.PUBLIC_URL + "/results"} component={Results} />
+        <Route exact path={process.env.PUBLIC_URL + "/results/:id"} component={Results} />
+        <Route exact path={process.env.PUBLIC_URL + "/issue/:id"} component={Issue} />
       </Switch>
     </Router>
   );
