@@ -6,7 +6,7 @@ import Issue from "./components/Issue";
 import Search from "./components/Search"
 function App() {
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
       <Switch>
         <Route exact path="/" component={Search} />
         <Route exact path ="/results" component={Results} />
