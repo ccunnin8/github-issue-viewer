@@ -49,7 +49,7 @@ export default function Issue() {
             }
         })();
     }, [id])
-    return data.length === 0 ? <p>Loading</p> : (
+    return loading ? <p>Loading</p> : (
         <div className="w-11/12 mx-auto">
             { error && <p>{error}</p>}
             <button onClick={() => history.goBack() }><span className="uppercase font-bold text-lg">&larr; Back </span></button>
