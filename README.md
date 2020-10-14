@@ -1,3 +1,17 @@
+This is a simple app that can be used to view github issues for certain repos 
+It uses react, react-router, and tailwindcss 
+
+Pages:
+
+"/":
+    The index page is a form to search for repos by organization and repo; The specifications of the project were for 1 specific repo so, included, is a button to lookup just that repo. Once a repo and organization have been entered the user is brought to the results page 
+
+"/results" and "/results/:id":
+    The results page displays a list of results. It implements pagination by downloading the entire data set and displaying only 10 pages at a time by slicing the data array. A GET request is sent using fetch on page load, organization and repo are given to the app via query params. Incrementing or decrementing the page also updates the url so that refreshing the page keeps the user on the same data slice
+
+"/issue/:id":
+    This page shows more information about the issue. It sends a GET request to the individual issue and uses fetch to download the JSON data. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
