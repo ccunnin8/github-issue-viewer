@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/github-issue-viewer/static/css/main.f523e9f7.chunk.css",
-    "main.js": "/github-issue-viewer/static/js/main.e7d6be3e.chunk.js",
-    "main.js.map": "/github-issue-viewer/static/js/main.e7d6be3e.chunk.js.map",
+    "main.js": "/github-issue-viewer/static/js/main.056a336f.chunk.js",
+    "main.js.map": "/github-issue-viewer/static/js/main.056a336f.chunk.js.map",
     "runtime-main.js": "/github-issue-viewer/static/js/runtime-main.d1972709.js",
     "runtime-main.js.map": "/github-issue-viewer/static/js/runtime-main.d1972709.js.map",
     "static/js/2.340d9d48.chunk.js": "/github-issue-viewer/static/js/2.340d9d48.chunk.js",
     "static/js/2.340d9d48.chunk.js.map": "/github-issue-viewer/static/js/2.340d9d48.chunk.js.map",
     "index.html": "/github-issue-viewer/index.html",
-    "precache-manifest.1f71ab59c005e5ea070ab433bc31a90f.js": "/github-issue-viewer/precache-manifest.1f71ab59c005e5ea070ab433bc31a90f.js",
+    "precache-manifest.f001fcb9a4f89c2deb16d4c0b97c6e0c.js": "/github-issue-viewer/precache-manifest.f001fcb9a4f89c2deb16d4c0b97c6e0c.js",
     "service-worker.js": "/github-issue-viewer/service-worker.js",
     "static/css/main.f523e9f7.chunk.css.map": "/github-issue-viewer/static/css/main.f523e9f7.chunk.css.map",
     "static/js/2.340d9d48.chunk.js.LICENSE.txt": "/github-issue-viewer/static/js/2.340d9d48.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d1972709.js",
     "static/js/2.340d9d48.chunk.js",
     "static/css/main.f523e9f7.chunk.css",
-    "static/js/main.e7d6be3e.chunk.js"
+    "static/js/main.056a336f.chunk.js"
   ]
 }
