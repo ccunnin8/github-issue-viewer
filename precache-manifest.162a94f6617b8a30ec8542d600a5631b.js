@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7650a5086c71685bdfe598228614eb1",
+    "revision": "5d7879bfc7c30073d892d6d132fb0ae7",
     "url": "/github-issue-viewer/index.html"
   },
   {
-    "revision": "b6964c12ed291805e58f",
+    "revision": "ed0adecc15c24f8173b8",
     "url": "/github-issue-viewer/static/css/main.f523e9f7.chunk.css"
   },
   {
-    "revision": "e50a237a771aaf765fe1",
-    "url": "/github-issue-viewer/static/js/2.6ffea125.chunk.js"
+    "revision": "5f36dd0d2b72ac4cab8a",
+    "url": "/github-issue-viewer/static/js/2.340d9d48.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/github-issue-viewer/static/js/2.6ffea125.chunk.js.LICENSE.txt"
+    "url": "/github-issue-viewer/static/js/2.340d9d48.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6964c12ed291805e58f",
-    "url": "/github-issue-viewer/static/js/main.2714d19d.chunk.js"
+    "revision": "ed0adecc15c24f8173b8",
+    "url": "/github-issue-viewer/static/js/main.86a5af88.chunk.js"
   },
   {
     "revision": "d988af526d7cc0f8e423",
