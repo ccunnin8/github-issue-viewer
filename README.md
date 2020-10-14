@@ -1,6 +1,8 @@
 This is a simple app that can be used to view github issues for certain repos 
 It uses react, react-router, and tailwindcss 
 
+Hosted on: http://github-issue-reviewer.s3-website-us-east-1.amazonaws.com
+
 Pages:
 
 "/":
